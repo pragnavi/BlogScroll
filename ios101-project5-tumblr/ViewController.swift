@@ -48,9 +48,14 @@ class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     private var posts: [Post] = []
+    let refreshControl = UIRefreshControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        refreshControl.addTarget(self, action: #selector(refreshBlogPosts(_:)), for: .valueChanged)
+        tableView.refreshControl = refreshControl
 
         tableView.dataSource = self
         
@@ -58,9 +63,14 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
 
 
+    @objc func refreshBlogPosts(_ sender: Any) {
+        fetchPosts()
+    }
 
     func fetchPosts() {
-        let url = URL(string: "https://api.tumblr.com/v2/blog/humansofnewyork/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
+//        let url = URL(string: "https://api.tumblr.com/v2/blog/humansofnewyork/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
+        let url = URL(string:
+            "https://api.tumblr.com/v2/blog/humansofseoul/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
         let session = URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
                 print("❌ Error: \(error.localizedDescription)")
@@ -92,6 +102,7 @@ class ViewController: UIViewController, UITableViewDataSource {
                     
                     self?.posts = posts
                     self?.tableView.reloadData()
+                    self?.refreshControl.endRefreshing()
                 }
 
             } catch {
