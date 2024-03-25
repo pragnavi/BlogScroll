@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED59160B29BC307D000F25AE"
-               BuildableName = "ios101-project5-tumblr.app"
-               BlueprintName = "ios101-project5-tumblr"
+               BuildableName = "BlogScroll.app"
+               BlueprintName = "BlogScroll"
                ReferencedContainer = "container:ios101-project5-tumblr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED59160B29BC307D000F25AE"
-            BuildableName = "ios101-project5-tumblr.app"
-            BlueprintName = "ios101-project5-tumblr"
+            BuildableName = "BlogScroll.app"
+            BlueprintName = "BlogScroll"
             ReferencedContainer = "container:ios101-project5-tumblr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED59160B29BC307D000F25AE"
-            BuildableName = "ios101-project5-tumblr.app"
-            BlueprintName = "ios101-project5-tumblr"
+            BuildableName = "BlogScroll.app"
+            BlueprintName = "BlogScroll"
             ReferencedContainer = "container:ios101-project5-tumblr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

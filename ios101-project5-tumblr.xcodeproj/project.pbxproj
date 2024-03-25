@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED59160C29BC307D000F25AE /* ios101-project5-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-project5-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED59160C29BC307D000F25AE /* BlogScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED59160F29BC307D000F25AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED59161129BC307D000F25AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED59161329BC307D000F25AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		ED59160D29BC307D000F25AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED59160C29BC307D000F25AE /* ios101-project5-tumblr.app */,
+				ED59160C29BC307D000F25AE /* BlogScroll.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED59160B29BC307D000F25AE /* ios101-project5-tumblr */ = {
+		ED59160B29BC307D000F25AE /* BlogScroll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED59162029BC307E000F25AE /* Build configuration list for PBXNativeTarget "ios101-project5-tumblr" */;
+			buildConfigurationList = ED59162029BC307E000F25AE /* Build configuration list for PBXNativeTarget "BlogScroll" */;
 			buildPhases = (
 				ED59160829BC307D000F25AE /* Sources */,
 				ED59160929BC307D000F25AE /* Frameworks */,
@@ -90,12 +90,12 @@
 			);
 			dependencies = (
 			);
-			name = "ios101-project5-tumblr";
+			name = BlogScroll;
 			packageProductDependencies = (
 				ED59162829BC50E7000F25AE /* Nuke */,
 			);
 			productName = "ios101-project5-tumbler";
-			productReference = ED59160C29BC307D000F25AE /* ios101-project5-tumblr.app */;
+			productReference = ED59160C29BC307D000F25AE /* BlogScroll.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED59160B29BC307D000F25AE /* ios101-project5-tumblr */,
+				ED59160B29BC307D000F25AE /* BlogScroll */,
 			);
 		};
 /* End PBXProject section */
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED59162029BC307E000F25AE /* Build configuration list for PBXNativeTarget "ios101-project5-tumblr" */ = {
+		ED59162029BC307E000F25AE /* Build configuration list for PBXNativeTarget "BlogScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED59162129BC307E000F25AE /* Debug */,
