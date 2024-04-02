@@ -1,28 +1,26 @@
-# Project 5 - *BlogScroll*
+# BlogScroll: Dynamic Tumblr Feed Viewer
 
-Submitted by: **Pragnavi Ravuluri Sai Durga**
+## Introduction
 
 **Name of your app** is an app that dynamically fetches and displays a feed of Tumblr blog posts, presenting them in a user-friendly, scrollable table view. By leveraging the Tumblr API, the app showcases the latest posts, including images and summaries, from selected Tumblr blogs. Users can explore a variety of content seamlessly within the app, with each post tailored to offer a quick glance or a deeper dive into the blog's offerings. Through custom table view cells, the app enhances visual engagement by incorporating blog post images alongside concise summaries, creating an interactive and engaging user experience. Additionally, BlogScroll integrates features such as pull-to-refresh, enabling users to easily update their feed with the latest posts. This app serves as an accessible gateway for users to discover and enjoy content from their favorite Tumblr blogs directly on their iOS devices.
 
-Time spent: **4** hours spent in total
 
-## Required Features
+## Features
 
-The following **required** functionality is completed:
+The following features are implemented:
 
 - [x] App has a configured table view and table view call
 - [x] App populates the table view with data fetched from an API
-
-
-The following **optional** features are implemented:
-
 - [x] App fetches posts from a different Tumblr blog
 - [x] App has a refresh control to update the table view
-
-The following **additional** features are implemented:
-
 - [x] Changed the display name of the app
 
+## Getting Started
+
+To dive into the world of Tumblr with BlogScroll:
+1. Clone the repository to your local machine.
+2. Open the `ios101-project5-tumblr.xcodeproj` file with Xcode.
+3. Build and run the project on your iOS device or emulator.
 
 ## Video Walkthrough
 
